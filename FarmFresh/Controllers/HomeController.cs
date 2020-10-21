@@ -4,32 +4,31 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using FarmFresh.Models;
 
 namespace FarmFresh.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        private readonly ILogger<HomeController> _logger;
+
+        public HomeController(ILogger<HomeController> logger)
+        {
+            _logger = logger;
+        }
+
+        public IActionResult Landing()
         {
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult ProductList()
         {
-            ViewData["Message"] = "Your application description page.";
-
             return View();
         }
 
-        public IActionResult Contact()
-        {
-            ViewData["Message"] = "Your contact page.";
-
-            return View();
-        }
-
-        public IActionResult Privacy()
+        public IActionResult ProductDetail()
         {
             return View();
         }
