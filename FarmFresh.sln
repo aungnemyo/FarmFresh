@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarmFresh", "FarmFresh\FarmFresh.csproj", "{71758F99-3446-4860-AAFA-C21562B65C1A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarmFreshAPI", "FarmFreshAPI\FarmFreshAPI.csproj", "{B45FC9BA-BC8F-44BF-8A05-04B419CCAE40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarmFreshSuperMarket", "FarmFreshSuperMarket\FarmFreshSuperMarket.csproj", "{F756A042-C672-4A6A-9E42-273785FCFF75}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{71758F99-3446-4860-AAFA-C21562B65C1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{71758F99-3446-4860-AAFA-C21562B65C1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{71758F99-3446-4860-AAFA-C21562B65C1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{71758F99-3446-4860-AAFA-C21562B65C1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B45FC9BA-BC8F-44BF-8A05-04B419CCAE40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B45FC9BA-BC8F-44BF-8A05-04B419CCAE40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B45FC9BA-BC8F-44BF-8A05-04B419CCAE40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B45FC9BA-BC8F-44BF-8A05-04B419CCAE40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F756A042-C672-4A6A-9E42-273785FCFF75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F756A042-C672-4A6A-9E42-273785FCFF75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F756A042-C672-4A6A-9E42-273785FCFF75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F756A042-C672-4A6A-9E42-273785FCFF75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

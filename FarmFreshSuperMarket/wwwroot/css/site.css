@@ -1,0 +1,167 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+}
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+}
+
+.feature-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+    .feature-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .feature-heading {
+        margin-top: 7rem;
+    }
+}
+/** Shop: Thumbnails **/
+.shop__thumb {
+    /*border: 1px solid rgba(0, 0, 0, 0.05);*/
+    /*padding: 20px;*/
+    margin-bottom: 20px;
+    /*background-color: white;*/
+    text-align: center;
+    -webkit-transition: border-color 0.1s, -webkit-box-shadow 0.1s;
+    -o-transition: border-color 0.1s, box-shadow 0.1s;
+    transition: border-color 0.1s, box-shadow 0.1s;
+}
+
+    /*.shop__thumb:hover {
+        border-color: rgba(0, 0, 0, 0.07);
+        -webkit-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 5px 30px rgba(0, 0, 0, 0.07);
+    }*/
+
+    .shop__thumb > a {
+        color: #333333;
+    }
+
+        .shop__thumb > a:hover {
+            text-decoration: none;
+        }
+
+.shop-thumb__img {
+    position: relative;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.shop-thumb__title {
+    text-align: left;
+    font-weight: 600;
+}
+
+.shop-thumb__price {
+    text-align: left;
+    color: #777777;
+}
+
+.shop-thumb-price_old {
+    text-decoration: line-through;
+}
+
+.shop-thumb-price_new {
+    color: red;
+}
+
+.pro-img-details {
+    margin-left: -15px;
+}
+
+    .pro-img-details img {
+        width: 100%;
+    }
+
+.pro-d-title {
+    font-size: 16px;
+    margin-top: 0;
+}
+/* hide the blue outline */
+.form-control:focus {
+    outline: 0 !important;
+    border-color: initial;
+    box-shadow: none;
+}
